@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header" id="home">
+        
+
+        <nav class="nav">
+            <div class="logo nav"><img src="https://paymence.web.app/assets/images/logo.png" alt="logo"></div>
+           
+
+            <div class="sideBar">
+                <a href="#" onclick= closeSideBar() class="menuCloseIcon"><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a>
+                    <a href="#pay_sol" class="sideBar_link">Payment Solutions</a>
+                    <a href="#pricing"  class="sideBar_link">Pricing</a>
+                    <a href="#about"  class="sideBar_link">About Us</a>
+                    <a href="#contact"  class="sideBar_link">Contact Us</a>
+            </div>
+
+            <div class="sideBar2">
+                <a href="#" onclick= closeSideBar2() class="menuCloseIcon"><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a>
+                <a href="#pay_sol" class="sections2Link link">Payment Solutions</a>
+                <a href="#pricing"  class="sections2Link link">Pricing</a>
+                <a href="#about"  class="sections2Link link">About Us</a>
+                <a href="#contact"  class="sections2Link link">Contact Us</a>
+                <p></hr></p>
+                <button class="sign_buttons sign_up blueButton">Sign Up</button>
+                <button class="sign_buttons sign_in">Sign In</button>
+            </div>
+
+
+            <div id="sections" class="secttions nav">
+                <a href="#pay_sol" class="sectionsLink link">Payment Solutions</a>
+                <a href="#pricing"  class="sectionsLink link">Pricing</a>
+                <a onclick= showSideBar() href="#" class="menuopenIcon"><svg xmlns="http://www.w3.org/2000/svg" height="35" viewBox="0 -960 960 960" width="35"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a>
+                <a href="#about"  class="sectionsLink link">About Us</a>
+                <a href="#contact"  class="sectionsLink link">Contact Us</a>
+            </div>
+
+            <a onclick= showSideBar2() href="#" class="menuopenIcon" id="menuopenIcon"><svg xmlns="http://www.w3.org/2000/svg" height="35" viewBox="0 -960 960 960" width="35"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a>
+
+
+            <div class="signing_buttons nav">
+                <button class="sign_buttons sign_up blueButton">Sign Up</button>
+                <button class="sign_buttons sign_in">Sign In</button>
+            </div>
+        </nav>
+    </header>
+    
+    <main>
+        <div class="div1">
+            <div class="div1_1"></div>
+            <div class="div1_2">
+                <h2 class="heroText">Let Us Handle Your <span class="bluetext">Paymence</span></h2>
+                <p class="heroParagraph">Paymence is a simple payment platform for companies and social media businesses to accept payments at the lowest cost possible and get paid fast.</p>
+               <div class="hero_buttons">
+                <button class="blueButton" >Start Now</button>
+                <a href="#payment" class="heroLink link">Pricing &gt;</a>
+               </div> 
+            </div>
+            <div class="div1_3">
+                <img src="https://paymence.web.app/assets/images/home/Phone.png" alt="paymence_img" class="hero_img">
+            </div>
+        </div>
+        <section class="trustedBy">
+           <h2 class="trustedByText heading">Trusted By</h2> 
+           <div class="trustedByLogos">
+            <div>
+                <img src="https://paymence.web.app/assets/images/trusted_by/anyGold.png" alt="logo_anyGold" class="trustedLogo">
+            </div>
+            <div>
+                <img src="https://paymence.web.app/assets/images/trusted_by/max_money.png" alt="logo_maxMoney" class="trustedLogo">
+            </div>
+            <div>
+                <img src="https://paymence.web.app/assets/images/trusted_by/AZ_Tech.png" alt="log_AZtech" class="trustedLogo">
+            </div>
+            <div>
+                <img src="https://paymence.web.app/assets/images/trusted_by/mobile.png" alt="logo_mobile" class="trustedLogo">
+            </div>
+            <div>
+                <img src="https://paymence.web.app/assets/images/trusted_by/n00r.svg" alt="logo_n00r" class="trustedLogo">
+            </div>
+            <div>
+                <img src="https://paymence.web.app/assets/images/trusted_by/goBiz.svg" alt="log_goBiz" class="trustedLogo">
+            </div>
+           </div>
+        </section>
+        <section class="payments" id="pay_sol">
+            <h2 class="our_pay heading">Our Payment Solutions</h2>
+            <h2 class="setup_pay heading2">Setup Payment Gateway</h2>
+            <div class="pay_links links">
+                 <div class="pay_item item">
+                    <div><span class="pay_item_span item_span"> </span></div>
+                    <div><p class="pay_item_para item_para">Easy Setup</p></div>
+                 </div>
+                 <div class="pay_item item">
+                    <div><span class="pay_item_span  item_span"> </span></div>
+                    <div><p class="pay_item_para item_para">Fast Checkout</p></div>
+                 </div>
+                 <div class="pay_item item">
+                    <div><span class="pay_item_span item_span"> </span></div>
+                    <div><p class="pay_item_para item_para">Easy Integration</p></div>
+                 </div>
+            </div>
+            <div class="services_offered">
+                <div class="services">
+                    <img src="https://paymence.web.app/assets/images/web.png" alt="webDev_logo" class="img_services img_sv1">
+                    <h2 class="heading2">Web development</h2>
+                    <div class="services_para"><p class="services_para_p" >Integrate Paymence payment platform on your website and start collecting paymence in no time.</p></div>
+                    <button class="blueButton">View Docs</button>
+                </div>
+                <div class="services">
+                    <img src="https://paymence.web.app/assets/images/app.png" alt="appDev_logo" class="img_services img_sv2">
+                    <h2 class="heading2">App development</h2>
+                    <div class="services_para"><p  class="services_para_p">Integrate Paymence payment platform on your mobile app with all payment options.</p></div>
+                    <button class="blueButton">View SDK</button>
+                </div>
+                <div class="services">
+                    <img src="https://paymence.web.app/assets/images/wocommerce.png" alt="ecom_logo" class="img_services img_sv3">
+                    <h2 class="heading2">WooCommerce</h2>
+                    <div class="services_para"><p  class="services_para_p">Ready to use payment platform plugins for WooCommerce. More E-commerce platforms and shopping carts coming soon!</p></div>
+                    <button class="blueButton">Plugins</button>
+                </div>
+            </div>
+        </section>
+        <section class="quick_links">
+            <h2 class="heading2 quick_links_heading">Quick Links</h2>
+            <div class="links">
+                <div class="links_item item">
+                    <div><span class="item_span"> </span></div>
+                    <div><p class="item_para">No Coding</p></div>
+                </div>
+                <div class="links_item item">
+                    <div><span class="item_span"> </span></div>
+                    <div><p class="item_para">No Developer Required</p></div>
+                </div>
+                <div class="links_item item">
+                    <div><span class="item_span"> </span></div>
+                    <div><p class="item_para">No website needed</p></div>
+                </div>
+                <div class="links_item item">
+                    <div><span class="item_span"> </span></div>
+                    <div><p class="item_para">Secure</p></div>
+                </div>
+            </div>
+            <div class="social_links">
+                <div class="social_texts">
+                    <p class="collectVia">Collect via</p>
+                    <p class="socialText">Whatsapp/ Instagram/ Facebook/ Twitter etc.</p>
+                    <p>Now directly share links to your customer anywhere & collect paymence seamlessly.</p>
+                    <button class="blueButton">Explore</button>
+                </div>
+                <div class="Social_icons">
+                    <div class="fb_logo">
+                        <span class="span_fb_logo"> f </span>
+                    </div>
+                    <div class="twiter_logo"><i class="fa fa-twitter" aria-hidden="true"></i><img src="data:image/jpeg;base64,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" alt="twiter_logo"  height="50px" class="twiter_logoImg"></div>
+                    <div class="insta_logo"><img src="data:image/jpeg;base64,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" alt="insta_logo" height="50vh" class="insta_logoImg"></div>
+                    <div class="whatsapp_logo"><img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxAQEhAQEBAWFRAPEBUQFhAVFRUQFhAPFREXFxUVFRUYHSggGB0lGxYVITEiJSkrLi4uFx8zODMtNygtLisBCgoKDg0OGhAQGi0lHx8tLS0tLS0tKysvKy0tLS03LS0tLisuLS0tLSstLS0tLS0tKy0tLS0tLSsrLS0tLS0tK//AABEIAOEA4QMBIgACEQEDEQH/xAAaAAEAAwEBAQAAAAAAAAAAAAAABAUGAwEC/8QAORAAAgEBBQUFBwIGAwEAAAAAAAECAwQFESExEkFRYXEiMpGhwQYTUoGx0eFCoiMzYnKC8ENTkhX/xAAZAQEBAAMBAAAAAAAAAAAAAAAAAQIEBQP/xAAmEQEAAgICAgEDBQEAAAAAAAAAAQIDEQQxEiFBFCJxI1FhgZEy/9oADAMBAAIRAxEAPwDeAAxdsAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHjZ2pWapPuwk+eGC8XkRJtEduQLCFzVnrsrq8fojp/8ABn/2Rx6MrynkY4+VWC1Vwz/7I+DOc7kqrSUXrva9ARyMc/KuBIrWGrDWDw4rtLyI2JHpW9bdS9ABWQAAAAAAAAAAAAAAAAAAAAAAHex2SdV4RWW+W6JGNrRWNy4cksW9yzLKyXNOWc3sLhrL8FtYbBCkss5b5PX8Esumjk5Uz6oi2a76dPSOL+J5slHzUqKKxk0lxeRX175pR7uMnyyXiytaIvef3WYM/Uvyo+7CK64y+xxd8V+MdeGg29Y4uSWlBmVe9f4l/wCUdYX3V3xi180TazxckNCca9lhPvRT57/Er6F+Qffi4812l9yxoWiE84ST6P0Lt5WpencaVNquPfTl/jL0ZU1acoPCSafBmxOVps8aiwksV5ro9w09sfKtX/r2yKBNt92ypZrtQ4711+5CRi36Xi8bgABWYAAAAAAAAAAAAAAHaxWV1ZKK01b4RIxtaIjcvu77FKs+EFrL0XM09ClGCUYrBLcKFGMIqMVgkj2pNRTbeCSxb4Iy05eXLOSf4fUmVNuvmMcY0+01ltbl9yDeV5Oo3GLwp+cuvLkQCbbGHi/N/wDH3Xrzm8Zyxf06LcfCB6RuxER08ABVAAAYjJxeMXg+KyAIkxtbWK+msqua+Jarqt5d0qikk4tNPeszHHex2ydJ4xeTecXo/wAl21M3FifdWsksSgva7XBudNdjfFfp5rkXVltEakdqLy80+DOrK06XtjsxiBPvawe6e1FdiX7XwICMXVpeLxuAAFZgAAAAAAAAAZAfqae67H7qGH6pZyfPh8iouOzbc3J6U8/8noaMsOfy8m58Rszl7W91G4Rf8NfufHoTr8tmzH3ce9NZ8o/koUJZcXDv75/oQBNuy73VeLygt+9vgiNy94pG5QsRialXdRww92vnn5lNfNiVOScVhGW7hJFeGPk1vbWleAA2QAAAAAABB3sdqlSkpLTHOPFGpoVVNKUXimjHlncdr2Je7fdm8uUvyWGpycO48o7XlpoxnFxlpJYGUr0XCUoPWL8VuZryo9oLNjFVFrHJ/wBuPo/qJa/GyeNtT1KjAQDpgAAAAAAAAYPqlT25Rj8UkvFoiTOo20tz2fYpx4y7T6vTyJdR4LHcsz1LAgX3W2aTW+b2PHXyxMnH93t+VBaazqTlN/qeXTcjkEDF2IiIjUPYwcmorV5LqzW2aioRjFaRWHXmZm7v5tP+5GsiWGhzLfdECIl52f3lOS3rNdUTD5ZZasTqYmGLTPSVelFQqyS0faw4J/6yKYuxS3lGwAFZAAAAAAMWsGtU8QCDV3faPeU4z3tYPqsmda9NTTi9JJop/Z2t36f+S+j9C7MnHy18LzDGyjstxesW14HhNvmls1ZP40pej80QkR1cdvKsSAAMwAAAAAJtywxrR/pxfll9SEyy9nk/evgoP6ony8s86pLQlH7RTzpx5OX0S9S9kZy/p/xUuFNZ9ZMylocaN5IVwAI6jpZ6uxOMvhafy3mvgzFtGjuS1bcFD9VNJdY7mIaXLpvVlmR7XaY005SfRcXwO6Kj2gs7kozWkNVye8stTHEWtESpq9Z1JOctW/BcDmMQYuvEREagABVAAAAAAAATLnnhWh/UpLyx9DToydg/m0v7jWosOdy4++FH7SQzpvqvNFOXntK+zT5z9GUaJPbZ4s/pgADYAAAAABll7PS/iyXGD8mitZNuWeFaP9Sa8sfQny8s8bpLTyM5f0f4qfGmvKTNEyj9oYdqnLk4+DT9WZS0ONOskKgAEdQOtltDpTU1uya4rejkGRLViY1LYUKqnFSi8VJYn1KKeKejyw5Gauq3+6bUu5L9r4mmizLbk5cU47aZe8rC6Usl/DbyfDkyHibGtRjNOMlinuM5eF2SpYtZ0+O+PX7kbeDkRMeNu0IBM8I3HuILK7Ls94tueKi8lhq+Z9Wm5JLOm8VweT8dGNS8J5FIt4zKrB7OLi8JLBrc8jwr2idgACu9h/m0sfiRrUZe6IY1of0qT8sPU04hzuZP3wqPaVdmnyn6Moy49pJfy11f0KcT22eLH6YAA2AAAAAAPujU2JRl8Mk/ljmfAaIkxuNNkiDflHapN74NS+Wj8mdLpr7dOL3x7L6r8YEqrFNNPR5fJmXw48bpb8MZE9OloounKUH+l+K3M5kdiJiY3AAAo0WN13l7vszbcNz+H8FcMCML44vGpbKMk0mninnjxR60ZewXhKk8O9BvOPDpwNDZbXCosYvqt66oyhzMuG2OffSJa7nhPOPZly0fy+xCs9yz217zZ2Frg3jLkX56NFc94jW3zGCSwSyW7kfWB6CvJwtFmhNYTjj9V0e4zt52NUpJReUljnqjUSMzfVXaq4L9C2fnqyS2eLNvPUdIIA4GLpLf2do47dT/ABX1foXhGu6z+7pxhvwxfV5s7VqiinJ6JN+Bk4+W3neZZy+qu1Vkt0Eo+r+vkQkezk5OUnrJuXieEdXHXxrEAADMAAAAAAwALG4rTsTcHpU0/uWhojHU4tyilq5pLribFCHN5dYi24+VTftkxSqLWKwfOPH5FEjTXzV2aUuMuyvnr5YmZQbHEmZp7AAG0AAAItppptNb08ACJMbWdmvuccFOO0uKyf2ZaWe8qU8MJ4PhLsszAwK178WluvTZpnzOaisW0lzeBj4trRtdG0eNY5vXjqNvL6Kf3XVuvld2lm/jei6LeUqGADZx4q449DLG5LJty94+7B+MvwRLJZpVZKMdMc5fCuJqbPRjCKjHRCHjyc3jHjHcuhU+0Fpwiqaecs3/AGp+r+hZV6qhFyk8ksTKWms6k5Te96cFuRZa/GxeVtz1DmgAR0wAAAAAAAAAMgnXJS2qqe6Ccvnovr5GlKn2dpYRnL4pYfJL7tltIyiHK5NvK8/wo/aGri4Q4JyfzyXqVCJN51tqrN7k9lfLL7nxSslWfdg3z0XizFvYoilI24gsqNyVH3mo/uZ1tNyNLGnLFrc8sejKfU4962qAfVWnKDwlFp8GfJHtE7AAFABiUAAk3kli+HEibDtZLLKq8IrLFYy3JE2xXPKWdTsx+H9T+xeUKMYJRisEtxdNXNyYj1Xt8WOyxpR2Y9W97fE7sNlDe15bWNOm8tJS48lyK0qUtks5XxbvePYj3I/ul9ivQQMXVx0ildQAArMAAAAAAAAPJM9Otkpbc4R4yWPRZvyREtbxjbT3fR2IQjwjn1ebJEjxHuJk4szv2jUrHTjnGCT44YvxZIRyrWmEO9JLq/Qg1b7pLuqUuiwXmGUVvbqNrTEGer31Ufdio/uf2PqyX1KOVVbS+JZP5rRjb1+mya3pdV6EZrCUU1zzK6vcdN9xuPLvL7k2z2ynU7kk+Wj8GSA8ovek+vTOzuWqtNlrq19UcJXZXX/H4NP1NSek09o5V4ZSF213/wAbXVpep1p3PWeqiussfoabE8xHis8u6moXEv1zx5Ry8yys1kp0+5FLnv8AEkHKtXjBYykkubLp42yXv3Loc69eMFtSaS/3Qq7Vfi0pxxfxNYLwKetWlN4zk2/JdFuG3rj41re59Qm3hekqmMYZQ85deBXoAxdClK0jUPTwArMAAAAAAAAAAAlXbaI0pOck3hHBJcX/AL5kUEY3rFo1K1rX5J5QglzeZBrW2rPWbw4LsryOAKwrgpXqHh6AR6gYBR4SaVuqx0qPo+19SOCMZpFu4WUL8qLWMX4red1f3Gllyl+CmBXlPGxz8LmV/cKT+csPQ5zv2e6CXXF/Yqj0EcbHHwk1byrS1nhyjhH8kWTbzbbfF5gB6VpWvUB6eAMwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAB//Z" alt="whatsapp_logo" height="50vh" class="whatsapp_logoImg"></div>
+                </div>
+            </div>
+        </section>
+        <section class="pricing" id="pricing">
+            <div class="pricing_text">
+                <h2 class="heading pricing_heading" id="pricing_heading">No more complex pricing</h2>
+                <p>We promise we won't burden you with unnecessary plans or pricings. We are transparent with our pricing and no hidden fees or setup costs.</p>
+                <button class="blueButton">Compare Pricing</button>
+            </div>
+            <div class="pricing_img">
+                <img src="https://paymence.web.app/assets/images/home/Section-3-complex-pricing.png" alt="paymence-weba-app" height="480px">
+            </div>
+        </section>
+        <section class="partners">
+            <div class="partners_text ">
+                <h2 class="heading partners_heading">Partners and Payment Method</h2>
+            </div>
+            <div class="partners_logo">
+                <img src="https://paymence.web.app/assets/images/home/Section-4-payment-methods.png " alt="partners_logo" height="100%" width="100%">
+            </div>
+        </section>
+        <section class="paymence_steps">
+           <div>
+               <h2 class="heading paymence_steps_heading">Built perfectly </br> for online paymence
+                </h2>
+               <p class="paymence_steps_para">Start accepting Paymence without a website in 3 simple steps.</p>
+           </div>
+           <div class="paymence_mathod_video"> 
+                 <div class="paymence_mathod">
+                    <div class="paymence-mathod_signUp">
+                        <div class="paymence_mathod_No">01</div>
+                        <div>
+                            <h2 class="heading2 paymence-mathod_heading">Sign-Up</h2>
+                            <p class="paymence-mathod_para">Sign-up with us and get approved in a day.</p>
+                        </div>
+                    </div>
+                    <div class="paymence_mathod_collection">
+                        <div class="paymence_mathod_No">02</div>
+                        <div>
+                            <h2 class="heading2 paymence-mathod_heading">Paymence Collection</h2>
+                            <p class="paymence-mathod_para">Sign-in, create and send a quick payment link to your customer through your chosen sales/business platform eg. WhatsApp, Instagram, FB & etc.</p>
+                        </div>
+                    </div>
+                    <div class="paymence_mathod_settlement">
+                        <div class="paymence_mathod_No">03</div>
+                        <div>
+                            <h2 class="heading2 paymence-mathod_heading">Settlement</h2>
+                            <p class="paymence-mathod_para">Customer pays through the link and your payment will be credited in your bank ASAP with the lowest cost in the industry.</p>
+                        </div>
+                    </div>
+                 </div>
+                 <div class="div_paymence_video">
+                    <img src="https://paymence.web.app/assets/images/home/video.png" alt="video" height="100%" width="100%" class="paymence_video"> 
+                 </div>
+           </div>
+        </section>
+        <section class="why_choose">
+            <div class="why_choose_text">
+                <h2 class="heading">Why choose Paymence as your preferred payment platform?</h2>
+            </div>
+            <div class="why_choose_benafits">
+                <div class="choose_benafits">
+                    <span class="choose_spaan"><img src="https://paymence.web.app/assets/icons/transaction.png" alt=""></span>
+                    <h2 class="heading2 choose_heading">Transaction fee</h2>
+                    <p class="choose_para">We charge the cheapest fee for FPX and Card transactions in the market.</p>
+                </div>
+                <div class="choose_benafits">
+                    <span class="choose_spaan">
+                        <img src="https://paymence.web.app/assets/icons/cost.png" alt=""></span>
+                    <h2 class="heading2 choose_heading">No extra membership cost</h2>
+                    <p class="choose_para">We do not charge a membership fee to our customers to use our service. You only have to pay as you use.</p>
+                </div>
+                <div class="choose_benafits">
+                    <span class="choose_spaan"><img src="https://paymence.web.app/assets/icons/best-choice.png" alt=""></span>
+                    <h2 class="heading2 choose_heading">FPX Online Banking & Cards</h2>
+                    <p class="choose_para">Rocket your sales by providing multiple payment options for your customers.</p>
+                </div>
+                <div class="choose_benafits">
+                    <span class="choose_spaan"><img src="https://paymence.web.app/assets/icons/credit-card-payment.png" alt=""></span>
+                    <h2 class="heading2 choose_heading">Get approved fast</h2>
+                    <p class="choose_para">We review and approve merchants in 2 days.</p>
+                </div>
+            </div>
+
+        </section>
+    </main>
+    <footer>
+        <div class="paymence_logo">
+            <img src="https://paymence.web.app/assets/images/logo.png" alt="paymence_logo">
+        </div>
+        <div class="footer_nav">
+            <div><a class="footer_para" href="#home">Home</a></div>
+            <div><a  href="#pay_sol" class="footer_para">Payment Solutions</a></div>
+            <div><a class="footer_para" href="#pricing">Pricing</a></div>
+            <div><a class="footer_para">About Us</a></div>
+            <div><a class="footer_para">Contact Us</a></div>
+        </div>
+    </footer>
+    <script src="javascript/script.js"></script>
+</body>
+</html>
