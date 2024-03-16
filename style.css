@@ -74,6 +74,8 @@ p,a {
 .sideBar2{
     position: fixed;
     padding: 1vh;
+    margin-left: 50vw;
+    margin-top: 4vh;
     /* height: 60vh; */
     width: 200px;
     top:0;
@@ -663,6 +665,9 @@ h2.partners_heading{
 }
 
 @media only screen  and (max-width:565px){
+    body{
+        padding:15px;
+    }
     #menuopenIcon{
         display: flex;
         margin-left:70vw;
