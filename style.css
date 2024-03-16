@@ -548,6 +548,10 @@ h2.partners_heading{
         margin: 0;
         padding: 0;
     }
+    .blueButton{
+        margin-top:25px;
+    }
+/*     practice */
     .div1{
         display: flex;
         flex-direction: column;
