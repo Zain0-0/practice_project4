@@ -716,9 +716,12 @@ h2.partners_heading{
         height: auto;
         margin-bottom: 2vh;
     }
+    .div_paymence_video{
+        height: auto;
+    }
     .paymence_video{
         width: 70vw;
-        height: 50vh;
+/*         height: 50vh; */
         margin-bottom: 2vh;
     }
     .choose_benafits{
