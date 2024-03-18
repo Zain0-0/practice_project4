@@ -507,10 +507,10 @@ h2.partners_heading{
     width: 30vw;
     margin: 0;
 }
-/* .why_choose{
+.why_choose{
     margin: 10vw;
-} */
-.choose_para{margin:10px;}
+}
+/* .choose_para{margin:10px;} */
 .why_choose_text{
    margin-left: 12vw;
    margin-right: 12vw;
