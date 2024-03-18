@@ -14,7 +14,6 @@ body{
     box-sizing: border-box;
     margin-right: -25px;
     width: 98vw;
-    background-color:black;
 }
 #home{
     width: 98vw;
@@ -85,7 +84,7 @@ p,a {
 /* sidebar2 */
 .sideBar2{
     position: fixed;
-    margin-left: 25vw;
+    margin-left: 30vw;
     margin-top: 4vh;
     padding: 1vh;
     /* height: 60vh; */
