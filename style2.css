@@ -19,7 +19,7 @@ body{
     width: 98vw;
 }
 .header{
-    width: 100vw;
+    width: 98vw;
 }
 p{
     margin: 10px;
@@ -717,7 +717,7 @@ h2.partners_heading{
         margin-bottom: 2vh;
     }
     .paymence_video{
-        width: 60vw;
+        width: 70vw;
         height: 50vh;
         margin-bottom: 2vh;
     }
