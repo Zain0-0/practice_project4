@@ -610,8 +610,8 @@ h2.partners_heading{
     }
     .trustedLogo{
         height: auto;
-        width: 30vw;
-        margin:5px;
+        width: auto;
+        margin-top:10px;
 /*         test */
 
     }
