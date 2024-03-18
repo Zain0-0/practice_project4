@@ -13,7 +13,7 @@ body{
     margin: 0;
     box-sizing: border-box;
     margin-right: -25px;
-    width: 98vw;
+/*     width: 98vw; */
 }
 #home{
     width: 98vw;
@@ -508,7 +508,7 @@ h2.partners_heading{
     margin: 0;
 }
 .why_choose{
-    margin: 10vw;
+    margin: 10vw 0 10vw 0;
 }
 .why_choose_text{
    margin-left: 12vw;
@@ -718,7 +718,7 @@ h2.partners_heading{
     }
     .paymence_video{
         width: 60vw;
-        height: 60vh;
+        height: 50vh;
         margin-bottom: 2vh;
     }
     .choose_benafits{
