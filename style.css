@@ -611,6 +611,8 @@ h2.partners_heading{
     .trustedLogo{
         height: auto;
         width: 30vw;
+        margin:20px;
+/*         test */
 
     }
     .heading{
