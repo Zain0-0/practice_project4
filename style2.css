@@ -591,7 +591,8 @@ h2.partners_heading{
         padding: 0;
     }
     .blueButton{
-        margin-top: 15px;
+        margin-top: 10px;
+        margin-bottom:10px;
     }
     .div1{
         display: flex;
@@ -654,7 +655,7 @@ h2.partners_heading{
     .trustedLogo{
         height: auto;
         width: 30vw;
-        margin: 10px;
+        margin-top: 10px;
 
     }
     .heading{
